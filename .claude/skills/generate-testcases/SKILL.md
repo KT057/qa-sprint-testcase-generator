@@ -5,6 +5,7 @@ description: |
   スプリント名やチケット番号を指定されたら使う。
 argument-hint: "[スプリント名 例: MYPROJECT-Sprint-5]"
 user-invocable: true
+disable-model-invocation: true
 context: fork
 allowed-tools: Read, Grep, Glob, Bash
 ---
